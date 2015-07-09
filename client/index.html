@@ -1,0 +1,28 @@
+<template name="mainLayout">
+    {{#if ready}}
+        <div style="position: relative; left: 30%; width: 50%; background-color: sandybrown;">
+            {{> Template.dynamic template=top}}
+            {{> Template.dynamic template=main}}
+        </div>
+    {{else}}
+        Loading...
+        {{>spin}}
+    {{/if}}
+    {{> sAlert}}
+</template>
+
+<template name="header">
+    {{#if currentUser}}
+        <a href="" class="logout">{{i18n 'LOGOUT'}}</a>
+    {{/if}}
+    {{> language }} |
+    {{#if currentUser}}
+        <a href="/?page=0"> Inicio </a> |
+        <a href="/admin-post/"> Administrar posts </a>
+    {{/if}}
+</template>
+
+<template name="language">
+    <span style="color: white">{{i18n 'SELECT_LANGUAGE'}} <a href="" class="language" lang="en">en</a> | <a href="" class="language" lang="es">es</a>
+    </span>
+</template>

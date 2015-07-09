@@ -1,0 +1,26 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+coffeescript
+ongoworks:security
+miguelalarcos:simple-binding
+semantic:ui-css
+meteorhacks:flow-router
+meteorhacks:flow-layout
+yogiben:spinkit
+sewdn:collection-behaviours
+accounts-password
+accounts-ui
+djedi:sanitize-html
+juliancwirko:s-alert
+itkgdle:medium-editor
+less
+momentjs:moment
+tmeasday:publish-counts
+miguelalarcos:flow-router-pagination
+miguelalarcos:sym-i18n
+udondan:yml

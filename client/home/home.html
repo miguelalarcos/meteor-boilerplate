@@ -1,0 +1,8 @@
+<template name="home">
+    {{#if ready}}
+        {{> paginationBar itemsPerPage=3 window=5 count='total_posts'}}
+    {{else}}
+        Loading...
+        {{>spin}}
+    {{/if}}
+</template>

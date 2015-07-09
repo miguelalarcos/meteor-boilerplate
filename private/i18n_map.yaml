@@ -1,0 +1,31 @@
+es:
+  SAVE:
+    any: 'Guardar'
+  LOGOUT:
+    any: 'Salir'
+  SELECT_LANGUAGE:
+    any: 'Selecciona un idioma: '
+  SIGNIN:
+    any: 'Entrar'
+  SIGNUP:
+    any: 'Crear cuenta'
+  HAVE_ACCOUNT:
+    any: 'Si ya tienes cuenta'
+  NOT_HAVE_ACCOUNT:
+    any: '¿No tienes cuenta?'
+en:
+  SAVE:
+    any: 'Save'
+  LOGOUT:
+    any: 'Log out'
+  SELECT_LANGUAGE:
+    any: 'Select a language: '
+  SIGNIN:
+    any: 'Sign in'
+  SIGNUP:
+    any: 'Sign up'
+  HAVE_ACCOUNT:
+    any: 'If you have an account'
+  NOT_HAVE_ACCOUNT:
+    any: "Don't you have an account?"
+

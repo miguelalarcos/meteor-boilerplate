@@ -1,0 +1,38 @@
+<template name="log-in">
+    {{> sbT template='login2' model=accessModel }}
+</template>
+
+<template name="login2">
+    <div style="margin: auto; width: 70%">
+        <div style="float:left; margin-right: 10%; width: 100%;">
+            <label class="green-button" sb sb-click="setVisible1">{{i18n 'HAVE_ACCOUNT'}}</label>
+            {{> sbT template='log-in-ui' model=this.model.login }}</div>
+        <div style="float:left; width: 100%;">
+            <label class="green-button" sb sb-click="setVisible2">{{i18n 'NOT_HAVE_ACCOUNT'}}</label>
+            {{> sbT template='register-ui' model=this.model.register }}</div>
+    </div>
+</template>
+
+<template name="log-in-ui">
+    <div sb sb-visible="visible" sb-fade="visible">
+        <div>Email:</div>
+        <input sb sb-bind="email" class="uinput" required>
+        <div>Password:</div>
+        <input type="password"  sb sb-bind="password" class="uinput" required>
+        <div><label class="green-button" sb sb-click="login" sb-visible="isValid">{{i18n 'SIGNIN'}}</label></div>
+    </div>
+</template>
+
+<template name="register-ui">
+    <div sb sb-visible="visible" sb-fade="visible">
+        <div>User name:</div>
+        <input sb sb-bind="username"  class="uinput" required>
+        <div>Email:</div>
+        <input sb sb-bind="email" class="uinput" required>
+        <div>Password:</div>
+        <input type="password"  sb sb-bind="password" class="uinput" required>
+        <div>Password repeat:</div>
+        <input type="password"  sb sb-bind="passwordRepeat" class="uinput" required>
+        <div><label class="green-button" sb sb-click="createAccount" sb-visible="isValid">{{i18n 'SIGNUP'}}</label></div>
+    </div>
+</template>
