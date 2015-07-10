@@ -18,7 +18,6 @@ accounts-ui
 djedi:sanitize-html
 juliancwirko:s-alert
 itkgdle:medium-editor
-less
 momentjs:moment
 tmeasday:publish-counts
 miguelalarcos:flow-router-pagination
@@ -26,3 +25,4 @@ miguelalarcos:sym-i18n
 udondan:yml
 miguelalarcos:modal
 underscorestring:underscore.string
+stylus

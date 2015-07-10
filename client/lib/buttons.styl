@@ -1,0 +1,26 @@
+my-green = #449D44
+my-red = #C9302C
+my-blue = #31B0D5
+
+box(color)
+  color white
+  font-weight bold
+  border-color color
+  background-color color
+  &:hover
+    background-color darken(color, 20%)
+  cursor pointer
+  display inline-block
+  height 3em
+  text-align center
+  line-height 2.5em
+  padding-right 3%
+  padding-left 3%
+
+
+.green-button
+  box(my-green)
+.red-button
+  box(my-red)
+.blue-button
+  box(my-blue)
