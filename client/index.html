@@ -1,3 +1,7 @@
+<head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+</head>
+
 <template name="mainLayout">
     {{#if ready}}
         <div style="position: relative; left: 30%; width: 50%; background-color: sandybrown;">
@@ -25,4 +29,17 @@
 <template name="language">
     <span style="color: white">{{i18n 'SELECT_LANGUAGE'}} <a href="" class="language" lang="en">en</a> | <a href="" class="language" lang="es">es</a>
     </span>
+</template>
+
+<template name="main">
+    {{> deviceRender 'page'}}
+</template>
+
+<template name="page">
+    <h1>Default Page</h1>
+</template>
+
+<template name="page_phone">
+    <h1>Phone specific page</h1>
+    hola mundo
 </template>
