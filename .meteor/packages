@@ -8,7 +8,6 @@ meteor-platform
 coffeescript
 ongoworks:security
 miguelalarcos:simple-binding
-semantic:ui-css
 meteorhacks:flow-router
 meteorhacks:flow-layout
 yogiben:spinkit
