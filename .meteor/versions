@@ -31,6 +31,7 @@ jquery@1.11.3_2
 json@1.0.3
 juliancwirko:s-alert@2.4.1
 launch-screen@1.0.2
+lbee:moment-helpers@1.1.0
 less@1.0.14
 livedata@1.0.13
 localstorage@1.0.3
@@ -57,6 +58,8 @@ npm-bcrypt@0.7.8_2
 observe-sequence@1.0.6
 ongoworks:security@1.2.0
 ordered-dict@1.0.3
+ostrio:jsextensions@0.0.4
+ostrio:templatehelpers@0.3.1
 random@1.0.3
 reactive-dict@1.1.0
 reactive-var@1.0.5

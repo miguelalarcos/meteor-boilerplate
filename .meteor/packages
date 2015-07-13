@@ -33,3 +33,5 @@ anonyfox:mmenu
 reactive-var
 reactive-dict
 mquandalle:jade
+ostrio:templatehelpers
+lbee:moment-helpers
