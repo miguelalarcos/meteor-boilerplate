@@ -30,3 +30,6 @@ alanning:roles
 dburles:spacebars-tohtml
 jquery
 anonyfox:mmenu
+reactive-var
+reactive-dict
+mquandalle:jade

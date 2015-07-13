@@ -1,0 +1,8 @@
+percolate:migrations
+miguelalarcos:base-cloudinary-widget
+goltfisch:cloudinary-server
+nekojira:cloudinary-jquery-upload
+khrone:img-qrcode
+zhenya:progress
+peernohell:c3
+
