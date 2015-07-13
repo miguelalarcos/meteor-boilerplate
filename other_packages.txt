@@ -11,3 +11,4 @@ udondan:slick
 natestrauser:select2 (incluido en simple-binding)
 dburles:google-maps
 snapsvg:core
+lookback:dropdowns (incluido en simple-binding)
