@@ -5,4 +5,6 @@ nekojira:cloudinary-jquery-upload
 khrone:img-qrcode
 zhenya:progress
 peernohell:c3
-
+templates:tabs
+lawshe:full-page
+udondan:slick
