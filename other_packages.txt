@@ -8,3 +8,4 @@ peernohell:c3
 templates:tabs
 lawshe:full-page
 udondan:slick
+natestrauser:select2
