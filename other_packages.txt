@@ -8,4 +8,6 @@ peernohell:c3
 templates:tabs
 lawshe:full-page
 udondan:slick
-natestrauser:select2
+natestrauser:select2 (incluido en simple-binding)
+dburles:google-maps
+snapsvg:core
