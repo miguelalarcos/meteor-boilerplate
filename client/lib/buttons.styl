@@ -24,3 +24,25 @@ box(color)
   box(my-red)
 .blue-button
   box(my-blue)
+
+myBlue = rgb(114, 191, 177)
+
+body
+  background-color myBlue
+
+.blue, .back-intro, .next-intro, .close-intro
+  //float left
+  display inline-block
+  cursor pointer
+  width 150px
+  height 50px
+  line-height 3em
+  text-align center
+  background-color myBlue
+  border 2px solid white
+  color white
+  border-radius 5px
+  &:hover
+    background-color white
+    border 2px solid myBlue
+    color myBlue
