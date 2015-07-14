@@ -14,3 +14,4 @@ snapsvg:core
 lookback:dropdowns (incluido en simple-binding)
 ecwyne:mathjs
 mrt:mathjax
+lepozepo:accounting
