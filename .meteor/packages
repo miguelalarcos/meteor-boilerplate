@@ -26,7 +26,6 @@ miguelalarcos:modal
 underscorestring:underscore.string
 stylus
 mystor:device-detection
-alanning:roles
 dburles:spacebars-tohtml
 jquery
 anonyfox:mmenu
@@ -37,3 +36,4 @@ ostrio:templatehelpers
 lbee:moment-helpers
 benmgreene:moment-range
 miguelalarcos:simple-intro
+miguelalarcos:roles-e
