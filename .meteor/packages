@@ -28,7 +28,6 @@ stylus
 mystor:device-detection
 dburles:spacebars-tohtml
 jquery
-anonyfox:mmenu
 reactive-var
 reactive-dict
 mquandalle:jade
@@ -37,3 +36,5 @@ lbee:moment-helpers
 benmgreene:moment-range
 miguelalarcos:simple-intro
 miguelalarcos:roles-e
+pagebakers:ionicons
+miguelalarcos:simple-menu

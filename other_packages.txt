@@ -17,3 +17,4 @@ mrt:mathjax
 lepozepo:accounting
 alanning:roles (tengo roles-e)
 jalik:roles
+yasaricli:nanoscroller (lo incluye mi simple-menu)
