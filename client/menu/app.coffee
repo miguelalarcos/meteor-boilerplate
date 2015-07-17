@@ -1,5 +1,5 @@
-Template.smenu.helpers
-  template: -> 'menu'
+#Template.smenu.helpers
+#  template: -> 'menu'
 
 Template.menu.helpers
   isPhone: ->

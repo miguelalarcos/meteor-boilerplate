@@ -1,8 +1,18 @@
+mc = rgb(191, 114, 138)
+
+.menu
+  background-color mc
+
 .nano
-  height 500px //100vh
+  height 100vh
 
 .menu div.item:hover
-  background-color rgb(191, 114, 171)
+  background-color lighten(mc, 30%)
+  color white
 
 i.show
   cursor pointer
+
+.menu div, .menu h2
+  border-bottom 2px solid white
+  //font-weight normal
